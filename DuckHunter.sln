@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDL", "SDLWrapper\SDL.csproj", "{2157EF32-B5FF-440E-81FE-B3C9F859CE7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuckHunter", "DuckHunter\DuckHunter.csproj", "{194E3570-FF46-48A8-9B9F-D5F3E8D43C81}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2157EF32-B5FF-440E-81FE-B3C9F859CE7B} = {2157EF32-B5FF-440E-81FE-B3C9F859CE7B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2157EF32-B5FF-440E-81FE-B3C9F859CE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2157EF32-B5FF-440E-81FE-B3C9F859CE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2157EF32-B5FF-440E-81FE-B3C9F859CE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2157EF32-B5FF-440E-81FE-B3C9F859CE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194E3570-FF46-48A8-9B9F-D5F3E8D43C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194E3570-FF46-48A8-9B9F-D5F3E8D43C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194E3570-FF46-48A8-9B9F-D5F3E8D43C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194E3570-FF46-48A8-9B9F-D5F3E8D43C81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13600E5B-90D4-4D94-BCAE-E68A67B078C6}
+	EndGlobalSection
+EndGlobal
