@@ -1,4 +1,4 @@
-﻿namespace DuckHunter.System.Render
+﻿namespace DuckHunter.SystemApp.Render
 {
     public struct RenderRegion
     {

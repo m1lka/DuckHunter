@@ -4,7 +4,7 @@ using System.Text;
 
 using static SDL2.SDL;
 
-namespace DuckHunter.System
+namespace DuckHunter.SystemApp
 {
     public class Sprite : IDisposable
     {

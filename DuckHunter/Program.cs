@@ -18,7 +18,7 @@ namespace DuckHunter
 
         static void Main(string[] args)
         {
-            System.Window window = new System.Window(SDL.WindowFlags.SDL_WINDOW_SHOWN, SDL.SDL_INIT_EVERYTHING, 500, 500, "Duck");
+            SystemApp.Window window = new SystemApp.Window(SDL.WindowFlags.SDL_WINDOW_SHOWN, SDL.SDL_INIT_EVERYTHING, 500, 500, "Duck");
             window.Initialize();
 
             window.Quit += OnExit;
@@ -27,7 +27,7 @@ namespace DuckHunter
             {
                 while (SDL.SDL_PollEvent(out SDL.SDL_Event events) == 1)
                 {
-                    System.Input.Update(events);
+                    SystemApp.Input.Update(events);
                     window.Update(events);
                 }
             }

@@ -1,9 +1,9 @@
 using System;
-using DuckHunter.System.Render;
+using DuckHunter.SystemApp.Render;
 using SDL2;
 using static SDL2.SDL.SDL_RendererFlags;
 
-namespace DuckHunter.System.Render
+namespace DuckHunter.SystemApp.Render
 {
     public class Renderer: IDisposable
     {

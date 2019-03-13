@@ -4,7 +4,7 @@ using System.Text;
 using SDL2;
 using DuckHunter.InputStructs;
 
-namespace DuckHunter.System
+namespace DuckHunter.SystemApp
 {
     public static class Input
     {

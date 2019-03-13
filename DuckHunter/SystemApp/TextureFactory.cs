@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DuckHunter.System
+namespace DuckHunter.SystemApp
 {
     public static class TextureFactory
     {

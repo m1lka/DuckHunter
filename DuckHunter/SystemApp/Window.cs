@@ -1,7 +1,7 @@
 using System;
 using SDL2;
 
-namespace DuckHunter.System
+namespace DuckHunter.SystemApp
 {
     public class Window: IDisposable
     {

@@ -3,7 +3,7 @@ using System;
 using SDL2;
 using Image = SDL2.SDL_image;
 
-namespace DuckHunter.System
+namespace DuckHunter.SystemApp
 {
     public class Texture: ICloneable, IDisposable
     {
